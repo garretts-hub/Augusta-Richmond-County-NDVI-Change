@@ -1,1 +1,8 @@
 # Augusta-Richmond-County-NDVI-Change
+Following up to the initial Augusta-Richmond-County-Urbanization project [here](https://github.com/garretts-hub/Augusta-Richmond-County-Urbanization), this analysis looked at LandSat8 raster data to summarize changes in NDVI (Normalized Vegetation Density Index) between August 2014 and May 2023. Those dates were chosen arbitrarily, mainly out of curiosity!
+
+The raster data points in the image below show significant cell-level changes in NDVI, while the colored background indicates the overall net change per zip code. Surprisingly, the northwestern areas had a substantial decrease in plant density and greenery, while the southeastern areas displayed an increase. I'd surmise that the change is a consequence of increased urbanization in those northwestern areas over the past decade.
+<img src="https://github.com/garretts-hub/Augusta-Richmond-County-NDVI-Change/blob/main/images/CSRA_NDVI_Change_Map.png" alt="map" title="NDVI Change Map of Augusta-Richmond County" width=85% style="display: block; margin: 0 auto"><br>
+The total increase and decrease in NDVI per zip code (normalized as the areal percentage of the total zip code area) are represented in the chart below.
+<img src="https://github.com/garretts-hub/Augusta-Richmond-County-NDVI-Change/blob/main/images/NDVI_Change_Graph.png" alt="chart" title="NDVI Change" width=75% style="display: block; margin: 0 auto"><br>
+Raw raster files for LandSat can be found at [EarthExplorer](https://earthexplorer.usgs.gov/). The specific TIFF files used here are located in the `gis-data` folder, where I've extracted LandSat8 bands 2-5 (R,B,G,NIR) and snipped them down to a relevant extent.

@@ -1,0 +1,105 @@
+{
+  "origin" : {
+    "x" : 373995,
+    "y" : 3712185,
+    "spatialReference" : {
+      "wkid" : 32617,
+      "latestWkid" : 32617
+    }
+  },
+  "extent" : {
+    "xmin" : 373995,
+    "ymin" : 3676875,
+    "xmax" : 422865,
+    "ymax" : 3712185,
+    "spatialReference" : {
+      "wkid" : 32617,
+      "latestWkid" : 32617
+    }
+  },
+  "geodataXform" : {
+    "spatialReference" : {
+      "wkid" : 32617,
+      "latestWkid" : 32617
+    },
+    "type" : "IdentityXform"
+  },
+  "LODInfos" : {
+    "resolutions" : [
+      240,
+      120,
+      60,
+      30
+    ],
+    "levels" : [
+      0,
+      1,
+      2,
+      3
+    ],
+    "scales" : [
+      907084.79999999993,
+      453542.39999999997,
+      226771.19999999998,
+      113385.59999999999
+    ],
+    "dpi" : 96,
+    "type" : "RasterLODInfos"
+  },
+  "blockWidth" : 256,
+  "blockHeight" : 256,
+  "bandCount" : 1,
+  "pixelType" : 3,
+  "pixelSizeX" : 30,
+  "pixelSizeY" : 30,
+  "format" : "Cache/LERC2D",
+  "compressionType" : "LERC",
+  "firstPyramidLevel" : 1,
+  "maximumPyramidLevel" : 3,
+  "packetSize" : 16,
+  "compressionQuality" : 100000,
+  "pyramidResamplingType" : 0,
+  "LERCError" : 0.10000000000000001,
+  "properties" : {
+    "KIND" : "IMAGE",
+    "BAND_COUNT" : "1",
+    "HAS_TABLE" : "0",
+    "HAS_XFORM" : "0",
+    "BandProperties" : [
+      {
+        "NoData" : "256",
+        "type" : "PropertySet"
+      }
+    ],
+    "DataType" : "Generic",
+    "ComputeChangeParameters" : "0",
+    "type" : "PropertySet"
+  },
+  "statistics" : [
+    {
+      "min" : 1,
+      "max" : 2,
+      "mean" : 1.4731009303601719,
+      "standardDeviation" : 0.49927630491920266,
+      "sum" : 944953.00000000012,
+      "median" : 1,
+      "mode" : 1,
+      "skipX" : 1,
+      "skipY" : 1,
+      "count" : 641472
+    }
+  ],
+  "histograms" : [
+    {
+      "size" : 3,
+      "min" : -0.5,
+      "max" : 2.5,
+      "counts" : [
+        0,
+        337991,
+        303481
+      ]
+    }
+  ],
+  "type" : "RasterInfo"
+}
